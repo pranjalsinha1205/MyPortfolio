@@ -74,10 +74,88 @@ main{
 
 .links a {
     display: inline-block;
-    vertical-align: middle; /* Optional: Vertically align the text and icon */
-    margin-right: 8px; /* Optional: Adjust space between the icon and text */
+    vertical-align: middle; 
+    margin-right: 8px;
 }
 
 .links .icon {
-    vertical-align: middle; /* Align icons with text */
+    vertical-align: middle;
+}
+
+@media (max-width: 1200px) {
+    /* Large screens (desktops) */
+    .table {
+        font-size: 1rem;
+    }
+    .icon {
+        height: 4vh;
+        width: 2vw;
+    }
+}
+
+@media (max-width: 900px) {
+    /* Tablets */
+    body {
+        font-size: 1.1rem;
+    }
+    .table {
+        font-size: 0.9rem;
+    }
+    .icon {
+        height: 5vh;
+        width: 2.5vw;
+    }
+    .links a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Mobile devices */
+    body {
+        font-size: 1rem;
+    }
+    .table {
+        font-size: 0.8rem;
+    }
+    .icon {
+        height: 6vh;
+        width: 3vw;
+    }
+    .links a {
+        font-size: 0.8rem;
+        margin-right: 5px;
+    }
+    section {
+        margin: 5%;
+    }
+    #intro {
+        font-size: 0.9rem;
+    }
+    main {
+        padding-bottom: 10vh;
+    }
+}
+
+@media (max-width: 400px) {
+    /* Small mobile devices */
+    body {
+        font-size: 0.9rem;
+    }
+    .table {
+        font-size: 0.7rem;
+    }
+    .icon {
+        height: 7vh;
+        width: 3.5vw;
+    }
+    .links a {
+        font-size: 0.7rem;
+    }
+    section {
+        margin: 8%;
+    }
+    #intro {
+        font-size: 0.8rem;
+    }
 }
