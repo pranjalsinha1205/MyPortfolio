@@ -1,0 +1,83 @@
+*{
+    font-family: sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.info{
+    color: black;
+}
+
+.info:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+a:hover{
+    color: orange;
+}
+
+.table{
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.header{
+    font-weight: bold;
+    background-color: lavender;
+    text-align: center;
+}
+
+
+section{
+    margin: 2.5%;   
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+    text-align: center; 
+}
+
+main{
+    margin: 2.5%;
+    padding-bottom: 5vh;
+}
+
+.icon{
+    height: 3vh;
+    width: 1.5vw;
+}
+
+.links a {
+    display: inline-block;
+    vertical-align: middle; /* Optional: Vertically align the text and icon */
+    margin-right: 8px; /* Optional: Adjust space between the icon and text */
+}
+
+.links .icon {
+    vertical-align: middle; /* Align icons with text */
+}
